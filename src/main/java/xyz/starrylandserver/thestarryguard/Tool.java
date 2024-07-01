@@ -37,3 +37,4 @@ public class Tool {//提供静态函数的工具类
         return System.currentTimeMillis()/1000;
     }
 }
+//test
