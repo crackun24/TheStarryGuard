@@ -53,7 +53,6 @@ public class TgMain {
 
         this.dataQuery.start();//启用查询服务
         this.dataStorage.start();//启用存储服务
-
     }
 
     public void LoadLang() throws IOException {

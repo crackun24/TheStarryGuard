@@ -4,7 +4,10 @@
   "package": "xyz.starrylandserver.thestarryguard.Mixins",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "Block"
+    "BlockMixin",
+    "BucketMixin",
+    "FlintMixin",
+    "PlayerEntityMixin"
   ],
   "client": [
   ],
