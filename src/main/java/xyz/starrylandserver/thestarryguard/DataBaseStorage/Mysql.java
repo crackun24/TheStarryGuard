@@ -1,6 +1,6 @@
-package xyz.starrylandserver.thestarryguardforge.DataBaseStorage;
-import xyz.starrylandserver.thestarryguardforge.DataType.Tables;
-import xyz.starrylandserver.thestarryguardforge.TgConfig;
+package xyz.starrylandserver.thestarryguard.DataBaseStorage;
+import xyz.starrylandserver.thestarryguard.DataType.Tables;
+import xyz.starrylandserver.thestarryguard.TgConfig;
 
 import java.sql.*;
 

@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge;
+package xyz.starrylandserver.thestarryguard;
 
 public class Tool {//提供静态函数的工具类
     private static final float YEAR = 31104000;//一年的秒数

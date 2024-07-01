@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge;
+package xyz.starrylandserver.thestarryguard;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

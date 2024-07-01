@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.DataType;
+package xyz.starrylandserver.thestarryguard.DataType;
 
 import java.util.HashMap;
 

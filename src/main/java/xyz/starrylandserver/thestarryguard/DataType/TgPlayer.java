@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.DataType;
+package xyz.starrylandserver.thestarryguard.DataType;
 
 public class TgPlayer {//玩家类
     public String UUID;

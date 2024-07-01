@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.DataType;
+package xyz.starrylandserver.thestarryguard.DataType;
 
 
 public class Action {//玩家的行为类

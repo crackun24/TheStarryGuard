@@ -1,7 +1,7 @@
-package xyz.starrylandserver.thestarryguardforge.DataBaseStorage;
+package xyz.starrylandserver.thestarryguard.DataBaseStorage;
 
 
-import xyz.starrylandserver.thestarryguardforge.DataType.*;
+import xyz.starrylandserver.thestarryguard.DataType.*;
 
 import java.sql.*;
 import java.util.ArrayList;

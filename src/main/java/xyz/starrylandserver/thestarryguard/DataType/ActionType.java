@@ -1,6 +1,6 @@
-package xyz.starrylandserver.thestarryguardforge.DataType;
+package xyz.starrylandserver.thestarryguard.DataType;
 
-import xyz.starrylandserver.thestarryguardforge.Lang;
+import xyz.starrylandserver.thestarryguard.Lang;
 
 public enum ActionType {
 

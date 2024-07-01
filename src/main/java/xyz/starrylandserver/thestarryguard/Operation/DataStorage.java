@@ -1,8 +1,8 @@
-package xyz.starrylandserver.thestarryguardforge.Operation;
+package xyz.starrylandserver.thestarryguard.Operation;
 
-import xyz.starrylandserver.thestarryguardforge.Adapter.TgAdapter;
-import xyz.starrylandserver.thestarryguardforge.DataBaseStorage.DataBase;
-import xyz.starrylandserver.thestarryguardforge.DataType.Action;
+import xyz.starrylandserver.thestarryguard.Adapter.TgAdapter;
+import xyz.starrylandserver.thestarryguard.DataBaseStorage.DataBase;
+import xyz.starrylandserver.thestarryguard.DataType.Action;
 
 import java.util.*;
 

@@ -1,7 +1,7 @@
-package xyz.starrylandserver.thestarryguardforge.Adapter;
+package xyz.starrylandserver.thestarryguard.Adapter;
 
-import xyz.starrylandserver.thestarryguardforge.DataType.SendMsg.SendMsg;
-import xyz.starrylandserver.thestarryguardforge.DataType.TgPlayer;
+import xyz.starrylandserver.thestarryguard.DataType.SendMsg.SendMsg;
+import xyz.starrylandserver.thestarryguard.DataType.TgPlayer;
 
 import java.util.List;
 

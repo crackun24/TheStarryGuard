@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.DataType;
+package xyz.starrylandserver.thestarryguard.DataType;
 
 public enum TargetType {
     PLAYER("player"),ENTITY("entity"),BLOCK("block");
