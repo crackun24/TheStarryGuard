@@ -3,7 +3,6 @@ package xyz.starrylandserver.thestarryguard;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.util.ActionResult;
 import xyz.starrylandserver.thestarryguard.Adapter.FabricAdapter;
 import xyz.starrylandserver.thestarryguard.Events.EventMgr;
 
@@ -28,11 +27,7 @@ public class TheStarryGuardFabric implements ModInitializer {
     void regServerStoppedEvent()//注册服务器关闭的事件
     {
        ServerLifecycleEvents.SERVER_STOPPED.register((server -> {
-           this.main.getDataQuery().CloseDataQuery();
-           this.main.dataStorage().CloseDataStorage();
-           this.main.feedback.close();
-
-           System.out.println("closed");//test
+           this.adapter.ShutDownServer();
        }));
     }
 
