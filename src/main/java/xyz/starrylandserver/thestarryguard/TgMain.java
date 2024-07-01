@@ -1,6 +1,6 @@
 package xyz.starrylandserver.thestarryguard;
 
-import net.minecraftforge.fml.loading.FMLPaths;
+import net.fabricmc.loader.api.FabricLoader;
 import xyz.starrylandserver.thestarryguard.Adapter.TgAdapter;
 import xyz.starrylandserver.thestarryguard.DataBaseStorage.DataBase;
 import xyz.starrylandserver.thestarryguard.DataBaseStorage.Mysql;
@@ -81,7 +81,7 @@ public class TgMain {
 
     public void LoadConf() throws IOException//加载配置文件
     {
-        String conf_path = FMLPaths.CONFIGDIR.get().toString();
+        String conf_path = FabricLoader.getInstance().getConfigDir().toString();
         this.config = TgConfig.LoadConfig(conf_path);//加载配置文件
     }
 

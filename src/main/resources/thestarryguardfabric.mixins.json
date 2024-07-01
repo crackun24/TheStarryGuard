@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.starrylandserver.thestarryguard.Mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "Block"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

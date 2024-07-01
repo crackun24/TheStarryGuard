@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "thestarryguardfabric",
+  "version": "${version}",
+  "name": "TheStarryGuardFabric",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/crackun24/TheStarryGuardFabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/thestarryguardfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "xyz.starrylandserver.thestarryguard.TheStarryGuardFabric"
+    ]
+  },
+  "mixins": [
+    "thestarryguardfabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
