@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.DataType;
+package xyz.starrylandserver.thestarryguard.DataType;
 
 public class Tables {
     public class Mysql {

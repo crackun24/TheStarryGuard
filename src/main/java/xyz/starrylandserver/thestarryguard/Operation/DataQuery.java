@@ -1,14 +1,14 @@
-package xyz.starrylandserver.thestarryguardforge.Operation;
+package xyz.starrylandserver.thestarryguard.Operation;
 
-import xyz.starrylandserver.thestarryguardforge.Adapter.TgAdapter;
-import xyz.starrylandserver.thestarryguardforge.DataBaseStorage.DataBase;
-import xyz.starrylandserver.thestarryguardforge.DataType.Action;
-import xyz.starrylandserver.thestarryguardforge.DataType.QueryTask;
-import xyz.starrylandserver.thestarryguardforge.DataType.SendMsg.SendMsg;
-import xyz.starrylandserver.thestarryguardforge.DataType.SendMsg.SendMsgType;
-import xyz.starrylandserver.thestarryguardforge.DataType.TgPlayer;
-import xyz.starrylandserver.thestarryguardforge.Lang;
-import xyz.starrylandserver.thestarryguardforge.Tool;
+import xyz.starrylandserver.thestarryguard.Adapter.TgAdapter;
+import xyz.starrylandserver.thestarryguard.DataBaseStorage.DataBase;
+import xyz.starrylandserver.thestarryguard.DataType.Action;
+import xyz.starrylandserver.thestarryguard.DataType.QueryTask;
+import xyz.starrylandserver.thestarryguard.DataType.SendMsg.SendMsg;
+import xyz.starrylandserver.thestarryguard.DataType.SendMsg.SendMsgType;
+import xyz.starrylandserver.thestarryguard.DataType.TgPlayer;
+import xyz.starrylandserver.thestarryguard.Lang;
+import xyz.starrylandserver.thestarryguard.Tool;
 
 import java.util.*;
 

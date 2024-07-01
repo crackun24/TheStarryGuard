@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.DataType.SendMsg;
+package xyz.starrylandserver.thestarryguard.DataType.SendMsg;
 
 public class SendMsg {//发送到客户端的消息
     public SendMsgType type;

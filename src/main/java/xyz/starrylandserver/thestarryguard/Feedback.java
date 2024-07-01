@@ -1,7 +1,7 @@
-package xyz.starrylandserver.thestarryguardforge;
+package xyz.starrylandserver.thestarryguard;
 
 import com.google.gson.Gson;
-import xyz.starrylandserver.thestarryguardforge.DataType.FeedBackJson;
+import xyz.starrylandserver.thestarryguard.DataType.FeedBackJson;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

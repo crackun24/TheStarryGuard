@@ -1,8 +1,8 @@
-package xyz.starrylandserver.thestarryguardforge.DataBaseStorage;
+package xyz.starrylandserver.thestarryguard.DataBaseStorage;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import xyz.starrylandserver.thestarryguardforge.DataType.Tables;
+import xyz.starrylandserver.thestarryguard.DataType.Tables;
 
 import java.io.File;
 import java.sql.DriverManager;

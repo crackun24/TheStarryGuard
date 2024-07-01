@@ -1,15 +1,15 @@
-package xyz.starrylandserver.thestarryguardforge;
+package xyz.starrylandserver.thestarryguard;
 
 import net.minecraftforge.fml.loading.FMLPaths;
-import xyz.starrylandserver.thestarryguardforge.Adapter.TgAdapter;
-import xyz.starrylandserver.thestarryguardforge.DataBaseStorage.DataBase;
-import xyz.starrylandserver.thestarryguardforge.DataBaseStorage.Mysql;
-import xyz.starrylandserver.thestarryguardforge.DataBaseStorage.Sqlite;
-import xyz.starrylandserver.thestarryguardforge.DataType.Action;
-import xyz.starrylandserver.thestarryguardforge.DataType.QueryTask;
-import xyz.starrylandserver.thestarryguardforge.DataType.TgPlayer;
-import xyz.starrylandserver.thestarryguardforge.Operation.DataQuery;
-import xyz.starrylandserver.thestarryguardforge.Operation.DataStorage;
+import xyz.starrylandserver.thestarryguard.Adapter.TgAdapter;
+import xyz.starrylandserver.thestarryguard.DataBaseStorage.DataBase;
+import xyz.starrylandserver.thestarryguard.DataBaseStorage.Mysql;
+import xyz.starrylandserver.thestarryguard.DataBaseStorage.Sqlite;
+import xyz.starrylandserver.thestarryguard.DataType.Action;
+import xyz.starrylandserver.thestarryguard.DataType.QueryTask;
+import xyz.starrylandserver.thestarryguard.DataType.TgPlayer;
+import xyz.starrylandserver.thestarryguard.Operation.DataQuery;
+import xyz.starrylandserver.thestarryguard.Operation.DataStorage;
 
 import java.io.File;
 import java.io.IOException;
