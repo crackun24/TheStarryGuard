@@ -2,11 +2,8 @@ package xyz.starrylandserver.thestarryguard;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
-import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.util.ActionResult;
 import xyz.starrylandserver.thestarryguard.Adapter.FabricAdapter;
-import xyz.starrylandserver.thestarryguard.Commands.CommandsMgr;
 import xyz.starrylandserver.thestarryguard.Events.EventMgr;
 
 public class TheStarryGuardFabric implements ModInitializer {
@@ -14,7 +11,6 @@ public class TheStarryGuardFabric implements ModInitializer {
     EventMgr eventMgr;//事件管理类
     TgMain main;
     MinecraftServer mc_server;
-    CommandsMgr commandsMgr;
 
     void regServerStartedEvent() {
         ServerLifecycleEvents.SERVER_STARTED.register((server -> {
@@ -25,23 +21,18 @@ public class TheStarryGuardFabric implements ModInitializer {
 
             this.eventMgr = new EventMgr(this.main);
             eventMgr.RegAllEvent();//注册事件
-
-            this.commandsMgr.setTgMain(main);//设置为有效的对象
         }));
     }
 
     void regServerStoppedEvent()//注册服务器关闭的事件
     {
        ServerLifecycleEvents.SERVER_STOPPED.register((server -> {
-            this.main.CloseService();
+           this.adapter.ShutDownServer();
        }));
     }
 
     @Override
     public void onInitialize() {
-        this.commandsMgr = new CommandsMgr();
-        commandsMgr.RegAllCommands();
-
         regServerStartedEvent(); //注册服务器开启的事件
         regServerStoppedEvent();
     }
