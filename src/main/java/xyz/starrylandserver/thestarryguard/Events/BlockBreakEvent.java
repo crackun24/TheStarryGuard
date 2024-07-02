@@ -10,9 +10,9 @@ import net.minecraft.world.World;
 
 public interface BlockBreakEvent {//玩家破坏方块事件
     Event<BlockBreakEvent> EVENT = EventFactory.createArrayBacked(BlockBreakEvent.class,
-            (listeners) -> (world, pos, state, placer) -> {
+            (listeners) -> (world, pos, state, breaker) -> {
                 for (BlockBreakEvent listener : listeners) {
-                    ActionResult result = listener.interact(world, pos, state, placer);
+                    ActionResult result = listener.interact(world, pos, state, breaker);
                     if (result != ActionResult.PASS) {
                         return result;
                     }
@@ -21,5 +21,5 @@ public interface BlockBreakEvent {//玩家破坏方块事件
             }
     );
 
-    ActionResult interact(World world, BlockPos pos, BlockState state, LivingEntity placer);
+    ActionResult interact(World world, BlockPos pos, BlockState state, LivingEntity breaker);
 }

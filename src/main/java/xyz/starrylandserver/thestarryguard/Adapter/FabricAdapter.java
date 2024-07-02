@@ -29,22 +29,22 @@ public class FabricAdapter implements TgAdapter {
 
     @Override
     public synchronized void LOGGER_INFO(String msg) {
-        LOGGER_INFO(msg);
+        LOGGER.info(msg);
     }
 
     @Override
     public synchronized void LOGGER_WARN(String msg) {
-        LOGGER_INFO(msg);
+        LOGGER.warn(msg);
     }
 
     @Override
     public synchronized void LOGGER_ERROR(String msg) {
-        LOGGER_INFO(msg);
+        LOGGER.error(msg);
     }
 
     @Override
     public synchronized void LOGGER_DEBUG(String msg) {
-        LOGGER_INFO(msg);
+        LOGGER.debug(msg);
     }
 
     @Override

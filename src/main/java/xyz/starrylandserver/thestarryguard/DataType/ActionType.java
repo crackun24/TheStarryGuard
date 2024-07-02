@@ -4,14 +4,14 @@ import xyz.starrylandserver.thestarryguard.Lang;
 
 public enum ActionType {
 
-    ATTACK_ENTITY_ACTION("attack_entity"),//done
-    ATTACK_PLAYER_ACTION("attack_player"),//done
+    ATTACK_ENTITY_ACTION("attack_entity"),
+    ATTACK_PLAYER_ACTION("attack_player"),
     FIRE_BLOCK_ACTION("fire_block"),//done
     BLOCK_PLACE_ACTION("block_place"),//done
     BLOCK_BREAK_ACTION("block_break"),//done
     KILL_ENTITY_ACTION("kill_entity"),//done
     KILL_PLAYER_ACTION("kill_player"),//done
-    BUKKIT_USE_ACTION("bukkit_use"),//done
+    BUKKIT_USE_ACTION("bukkit_use"),
     RIGHT_CLICK_BLOCK_ACTION("right_click_block");//done
 
     String strType;
