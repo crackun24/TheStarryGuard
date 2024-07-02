@@ -140,4 +140,11 @@ public class TgMain {
         return temp;
     }
 
+    public void CloseService()//关闭所有的服务
+    {
+       this.feedback.interrupt(); //关闭反馈接口
+       this.dataStorage.CloseDataStorage();//关闭存储
+       this.dataQuery.CloseDataQuery();//关闭查询
+    }
+
 }
