@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b8576dd-24cc-4f0e-9a14-0ba95d4f70bc" name="更改" comment="击杀玩家事件&#10;击杀实体的事件">
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/TgMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/TgMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/CommandsMgr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/QueryNear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/PlayerAttackEntityEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/PlayerAttackPlayerEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/EntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/DataType/ActionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/DataType/ActionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/EventMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/EventMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/PlayerKillEntityEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/PlayerKillEntityEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/PlayerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/PlayerEntityMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/TheStarryGuardFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/TheStarryGuardFabric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/thestarryguardfabric.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/thestarryguardfabric.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +64,12 @@
                 <item name="TheStarryGuardFabric" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TheStarryGuardFabric" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -97,10 +119,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.TheStarryGuardFabric [build].executor": "Run",
     "Gradle.TheStarryGuardFabric [wrapper].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "fabric-1.20.1",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -220,8 +243,10 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="初始化提交" />
     <MESSAGE value="击杀玩家事件&#10;击杀实体的事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="击杀玩家事件&#10;击杀实体的事件" />
+    <MESSAGE value=".gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
   </component>
 </project>

@@ -7,6 +7,7 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.ActionResult;
+import net.minecraft.world.World;
 
 public interface PlayerKillEntityEvent {
     Event<PlayerKillEntityEvent> EVENT = EventFactory.createArrayBacked(PlayerKillEntityEvent.class,
@@ -21,5 +22,5 @@ public interface PlayerKillEntityEvent {
             }
     );
 
-    ActionResult interact(ServerWorld world, PlayerEntity killer, LivingEntity entity);
+    ActionResult interact(World world, PlayerEntity killer, LivingEntity entity);
 }

@@ -21,6 +21,7 @@ repositories {
 dependencies {
     implementation (include('mysql:mysql-connector-java:8.0.28'))
     implementation (include('org.xerial:sqlite-jdbc:3.34.0'))
+    compileOnly 'net.luckperms:api:5.4'
 
     // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
