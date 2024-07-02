@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TheStarryGuardFabric.iml" filepath="$PROJECT_DIR$/TheStarryGuardFabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TheStarryGuardFabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TheStarryGuardFabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TheStarryGuardFabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/TheStarryGuardFabric.test.iml" />
+    </modules>
+  </component>
+</project>
