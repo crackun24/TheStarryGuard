@@ -87,6 +87,7 @@ public class Feedback extends Thread {//发送反馈
         genServerId();//获取服务器的 mac 地址
         while (!getCloseState()) {
             try {
+                
                 onSendFeedback();
                 sleep(43200000);//每隔12个小时发送一次反馈数据
             } catch (InterruptedException e) {
