@@ -4,24 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8576dd-24cc-4f0e-9a14-0ba95d4f70bc" name="更改" comment="击杀玩家事件&#10;击杀实体的事件">
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/CommandsMgr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/QueryNear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/PlayerAttackEntityEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/PlayerAttackPlayerEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/EntityMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Client.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+    <list default="true" id="9b8576dd-24cc-4f0e-9a14-0ba95d4f70bc" name="更改" comment="查询周围的指令">
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/QueryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/QueryPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/DataType/ActionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/DataType/ActionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Adapter/FabricAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Adapter/FabricAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/CommandsMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/CommandsMgr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/QueryNear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Commands/QueryNear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/EventMgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/EventMgr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/PlayerKillEntityEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Events/PlayerKillEntityEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/BlockMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/BlockMixin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/EntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/EntityMixin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/PlayerEntityMixin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/Mixins/PlayerEntityMixin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/TheStarryGuardFabric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/starrylandserver/thestarryguard/TheStarryGuardFabric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/thestarryguardfabric.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/thestarryguardfabric.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +85,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -117,16 +111,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Gradle.TheStarryGuardFabric [build].executor": "Run",
-    "Gradle.TheStarryGuardFabric [wrapper].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "fabric-1.20.1",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Gradle.TheStarryGuardFabric [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TheStarryGuardFabric [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;fabric-1.20.1&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <myKeys>
       <visibility group="Gradle 任务" flag="true" />
@@ -239,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719895956934</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="查询周围的指令">
+      <option name="closed" value="true" />
+      <created>1719918779310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719918779310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +250,7 @@
     <MESSAGE value="初始化提交" />
     <MESSAGE value="击杀玩家事件&#10;击杀实体的事件" />
     <MESSAGE value=".gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore" />
+    <MESSAGE value="查询周围的指令" />
+    <option name="LAST_COMMIT_MESSAGE" value="查询周围的指令" />
   </component>
 </project>

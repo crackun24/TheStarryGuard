@@ -1,6 +1,5 @@
 package xyz.starrylandserver.thestarryguard.Events;
 
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerEntityEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.hit.HitResult;
@@ -226,6 +225,7 @@ public class EventMgr {
         regPlayerAttackPlayerEvent();
         regKillPlayerEvent();
         regKillEntityEvent();
+
     }
 
     public EventMgr(TgMain main) {
