@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.Event;
+package xyz.starrylandserver.thestarryguard.Event;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
@@ -8,9 +8,9 @@ import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.FlintAndSteelItem;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import xyz.starrylandserver.thestarryguardforge.DataType.*;
-import xyz.starrylandserver.thestarryguardforge.TgMain;
-import xyz.starrylandserver.thestarryguardforge.Tool;
+import xyz.starrylandserver.thestarryguard.DataType.*;
+import xyz.starrylandserver.thestarryguard.TgMain;
+import xyz.starrylandserver.thestarryguard.Tool;
 
 import java.util.HashMap;
 

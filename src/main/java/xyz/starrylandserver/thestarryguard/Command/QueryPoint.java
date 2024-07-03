@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.Command;
+package xyz.starrylandserver.thestarryguard.Command;
 
 import com.mojang.brigadier.context.CommandContext;
 import net.luckperms.api.LuckPerms;
@@ -8,11 +8,11 @@ import net.luckperms.api.model.user.UserManager;
 import net.luckperms.api.query.QueryOptions;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.world.entity.player.Player;
-import xyz.starrylandserver.thestarryguardforge.Adapter.TgAdapter;
-import xyz.starrylandserver.thestarryguardforge.DataType.TgPlayer;
-import xyz.starrylandserver.thestarryguardforge.Lang;
-import xyz.starrylandserver.thestarryguardforge.Operation.DataQuery;
-import xyz.starrylandserver.thestarryguardforge.TgMain;
+import xyz.starrylandserver.thestarryguard.Adapter.TgAdapter;
+import xyz.starrylandserver.thestarryguard.DataType.TgPlayer;
+import xyz.starrylandserver.thestarryguard.Lang;
+import xyz.starrylandserver.thestarryguard.Operation.DataQuery;
+import xyz.starrylandserver.thestarryguard.TgMain;
 
 import java.util.UUID;
 

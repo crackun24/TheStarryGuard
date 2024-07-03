@@ -1,13 +1,13 @@
-package xyz.starrylandserver.thestarryguardforge.Event;
+package xyz.starrylandserver.thestarryguard.Event;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import xyz.starrylandserver.thestarryguardforge.DataType.*;
-import xyz.starrylandserver.thestarryguardforge.TgMain;
-import xyz.starrylandserver.thestarryguardforge.Tool;
+import xyz.starrylandserver.thestarryguard.DataType.*;
+import xyz.starrylandserver.thestarryguard.TgMain;
+import xyz.starrylandserver.thestarryguard.Tool;
 
 import java.util.HashMap;
 

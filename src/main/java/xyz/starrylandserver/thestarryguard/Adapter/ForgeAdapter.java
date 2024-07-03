@@ -1,12 +1,12 @@
-package xyz.starrylandserver.thestarryguardforge.Adapter;
+package xyz.starrylandserver.thestarryguard.Adapter;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.MinecraftServer;
 import net.minecraftforge.fml.loading.FMLPaths;
 import net.minecraftforge.server.ServerLifecycleHooks;
-import xyz.starrylandserver.thestarryguardforge.DataType.SendMsg.SendMsg;
-import xyz.starrylandserver.thestarryguardforge.DataType.SendMsg.SendMsgType;
-import xyz.starrylandserver.thestarryguardforge.DataType.TgPlayer;
+import xyz.starrylandserver.thestarryguard.DataType.SendMsg.SendMsg;
+import xyz.starrylandserver.thestarryguard.DataType.SendMsg.SendMsgType;
+import xyz.starrylandserver.thestarryguard.DataType.TgPlayer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

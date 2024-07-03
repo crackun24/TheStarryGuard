@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge;
+package xyz.starrylandserver.thestarryguard;
 
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStoppedEvent;
@@ -6,11 +6,11 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import xyz.starrylandserver.thestarryguardforge.Adapter.ForgeAdapter;
-import xyz.starrylandserver.thestarryguardforge.Command.CmdMain;
-import xyz.starrylandserver.thestarryguardforge.Event.AttEntityEvent;
-import xyz.starrylandserver.thestarryguardforge.Event.BlockBreakEvent;
-import xyz.starrylandserver.thestarryguardforge.Event.RightClickEvent;
+import xyz.starrylandserver.thestarryguard.Adapter.ForgeAdapter;
+import xyz.starrylandserver.thestarryguard.Command.CmdMain;
+import xyz.starrylandserver.thestarryguard.Event.AttEntityEvent;
+import xyz.starrylandserver.thestarryguard.Event.BlockBreakEvent;
+import xyz.starrylandserver.thestarryguard.Event.RightClickEvent;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TheStarryGuardForge.MODID)

@@ -1,4 +1,4 @@
-package xyz.starrylandserver.thestarryguardforge.Command;
+package xyz.starrylandserver.thestarryguard.Command;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
@@ -6,7 +6,7 @@ import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
 import net.minecraftforge.event.RegisterCommandsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import xyz.starrylandserver.thestarryguardforge.TgMain;
+import xyz.starrylandserver.thestarryguard.TgMain;
 
 public class CmdMain {
     private QueryNear queryNear;
