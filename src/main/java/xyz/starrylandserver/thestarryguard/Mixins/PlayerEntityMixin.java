@@ -22,7 +22,12 @@ public abstract class PlayerEntityMixin {
         }
 
         PlayerEntity attacker = (PlayerEntity) source.getAttacker();//获取攻击this玩家的玩家
-        World world = attacker.getWorld();
+        World world;
+        //#if MC>=12000
+        world = attacker.getWorld();
+        //#else
+        //$$ world = attacker.world;
+        //#endif
 
         PlayerEntity be_attacked = (PlayerEntity) (Object) this;//获取当前的玩家
 

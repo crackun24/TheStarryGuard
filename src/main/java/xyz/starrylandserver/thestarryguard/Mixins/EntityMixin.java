@@ -31,13 +31,31 @@ public abstract class EntityMixin {
         }
 
         PlayerEntity mc_player = (PlayerEntity) source.getAttacker();
-        World world = mc_player.getWorld();
+        World world;
+
+        //#if MC>=12000
+        world = mc_player.getWorld();
+        //#else
+        //$$ world = mc_player.world;
+        //#endif
 
         if (this.getHealth() - amount <= 0)//击杀实体的事件
         {
-            ActionResult result = PlayerKillEntityEvent.EVENT.invoker().interact(mc_player.getWorld(), mc_player, entity);
+            ActionResult result;
+            //#if MC>=12000
+             result = PlayerKillEntityEvent.EVENT.invoker().interact(mc_player.getWorld(), mc_player, entity);
+            //#else
+            //$$ result = PlayerKillEntityEvent.EVENT.invoker().interact(mc_player.world, mc_player, entity);
+            //#endif
+
         } else {//攻击实体的事件
-            ActionResult result = PlayerAttackEntityEvent.EVENT.invoker().interact(mc_player.getWorld(), mc_player, entity);
+            ActionResult result;
+            //#if MC>11701
+            result = PlayerAttackEntityEvent.EVENT.invoker().interact(mc_player.getWorld(), mc_player, entity);
+            //#else
+            //$$ result = PlayerAttackEntityEvent.EVENT.invoker().interact(mc_player.world, mc_player, entity);
+            //#endif
+
         }
 
     }

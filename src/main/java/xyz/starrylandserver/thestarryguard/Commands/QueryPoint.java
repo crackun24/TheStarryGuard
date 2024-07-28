@@ -2,7 +2,6 @@ package xyz.starrylandserver.thestarryguard.Commands;
 
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.context.CommandContext;
-import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.luckperms.api.LuckPerms;
 import net.luckperms.api.LuckPermsProvider;
 import net.luckperms.api.model.user.User;
@@ -16,6 +15,12 @@ import xyz.starrylandserver.thestarryguard.DataType.TgPlayer;
 import xyz.starrylandserver.thestarryguard.Lang;
 import xyz.starrylandserver.thestarryguard.Operation.DataQuery;
 import xyz.starrylandserver.thestarryguard.TgMain;
+
+//#if MC>=11904
+import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
+//#else
+//$$ import net.fabricmc.fabric.api.command.v1.CommandRegistrationCallback;
+//#endif
 
 import java.util.UUID;
 
@@ -64,7 +69,14 @@ public class QueryPoint {
             return 1;
         }
 
-        ServerPlayerEntity mc_player = source.getPlayer();
+        ServerPlayerEntity mc_player;
+        try {
+            mc_player = context.getSource().getPlayer();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return 1;
+        }
+
         TgPlayer player = new TgPlayer(mc_player.getName().getString(), mc_player.getUuidAsString());//构造玩家
 
         if (main == null) {
@@ -86,9 +98,15 @@ public class QueryPoint {
     }
 
     public void RegQueryPointCommand() {
+        //#if MC>=11904
         CommandRegistrationCallback.EVENT.register(((dispatcher, registryAccess, environment) -> {
             onRegCommands(dispatcher);
         }));
+        //#else
+        //$$ CommandRegistrationCallback.EVENT.register(((dispatcher, registryAccess) -> {
+        //$$   onRegCommands(dispatcher);
+        //$$ }));
+        //#endif
     }
 
     public void setTgMain(TgMain main)//设置实体的main对象
