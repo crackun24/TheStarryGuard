@@ -23,19 +23,17 @@ public abstract class BlockMixin {
         ActionResult result = BlockPlaceEvent.EVENT.invoker().interact(world, pos, state, placer, itemStack);
     }
 
-    //#if MC<12003
+    //#if MC<1203
     //$$
-    //$$ @Inject(at = @At(value = "HEAD"),method = "onBreak")
-    //$$ public void PlayerBreakEvent(World world, BlockPos pos, BlockState state, PlayerEntity player, CallbackInfo ci)
-    //$$ {
-    //$$   ActionResult result = BlockBreakEvent.EVENT.invoker().interact(world,pos,state,player);
-    //$$ }
+     @Inject(at = @At(value = "HEAD"),method = "onBreak")
+     public void PlayerBreakEvent(World world, BlockPos pos, BlockState state, PlayerEntity player, CallbackInfo ci)
+     {
+       ActionResult result = BlockBreakEvent.EVENT.invoker().interact(world,pos,state,player);
+     }
     //#else
-    @Inject(at = @At(value = "HEAD"), method = "onBreak")
-    public void PlayerBreakEvent(World world, BlockPos pos, BlockState state, PlayerEntity player,
-                                 CallbackInfoReturnable<BlockState> cir) {
-        ActionResult result = BlockBreakEvent.EVENT.invoker().interact(world, pos, state, player);
-    }
+    //$$ @Inject(at = @At(value = "HEAD"), method = "onBreak")
+    //$$ public void PlayerBreakEvent(World world, BlockPos pos, BlockState state, PlayerEntity player, CallbackInfoReturnable<BlockState> cir) {
+    //$$     ActionResult result = BlockBreakEvent.EVENT.invoker().interact(world, pos, state, player);
+    //$$ }
     //#endif
-
 }
