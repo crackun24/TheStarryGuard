@@ -20,7 +20,7 @@ import java.util.Objects;
 
 //模组的主处理类
 public class TgMain {
-    String modType = "TheStarryGuardForge";
+    String modType = "TheStarryGuardFabric";
     TgConfig config;//配置对象
     TgAdapter adapter;//不同加载器的适配器
     Lang lang;//语言类
