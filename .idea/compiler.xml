@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.6" />
+    <bytecodeTargetLevel target="1.6">
+      <module name="TheStarryGuardFabric.1.16.5" target="21" />
+      <module name="TheStarryGuardFabric.1.16.5.main" target="21" />
+      <module name="TheStarryGuardFabric.1.16.5.test" target="21" />
+      <module name="TheStarryGuardFabric.1.17.1" target="16" />
+      <module name="TheStarryGuardFabric.1.17.1.main" target="16" />
+      <module name="TheStarryGuardFabric.1.17.1.test" target="16" />
+      <module name="TheStarryGuardFabric.1.18.2" target="17" />
+      <module name="TheStarryGuardFabric.1.18.2.main" target="17" />
+      <module name="TheStarryGuardFabric.1.18.2.test" target="17" />
+      <module name="TheStarryGuardFabric.1.19.4" target="17" />
+      <module name="TheStarryGuardFabric.1.19.4.main" target="17" />
+      <module name="TheStarryGuardFabric.1.19.4.test" target="17" />
+      <module name="TheStarryGuardFabric.1.20" target="17" />
+      <module name="TheStarryGuardFabric.1.20.1" target="17" />
+      <module name="TheStarryGuardFabric.1.20.1.main" target="17" />
+      <module name="TheStarryGuardFabric.1.20.1.test" target="17" />
+      <module name="TheStarryGuardFabric.1.20.2" target="17" />
+      <module name="TheStarryGuardFabric.1.20.2.main" target="17" />
+      <module name="TheStarryGuardFabric.1.20.2.test" target="17" />
+      <module name="TheStarryGuardFabric.1.20.3" target="17" />
+      <module name="TheStarryGuardFabric.1.20.3.main" target="17" />
+      <module name="TheStarryGuardFabric.1.20.3.test" target="17" />
+      <module name="TheStarryGuardFabric.1.20.4" target="17" />
+      <module name="TheStarryGuardFabric.1.20.4.main" target="17" />
+      <module name="TheStarryGuardFabric.1.20.4.test" target="17" />
+      <module name="TheStarryGuardFabric.1.20.5" target="17" />
+      <module name="TheStarryGuardFabric.1.20.5.main" target="17" />
+      <module name="TheStarryGuardFabric.1.20.5.test" target="17" />
+      <module name="TheStarryGuardFabric.1.20.6" target="17" />
+      <module name="TheStarryGuardFabric.1.20.6.main" target="17" />
+      <module name="TheStarryGuardFabric.1.20.6.test" target="17" />
+      <module name="TheStarryGuardFabric.1.20.main" target="17" />
+      <module name="TheStarryGuardFabric.1.20.test" target="17" />
+      <module name="TheStarryGuardFabric.1.21" target="17" />
+      <module name="TheStarryGuardFabric.1.21.main" target="17" />
+      <module name="TheStarryGuardFabric.1.21.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
